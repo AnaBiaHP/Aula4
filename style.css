@@ -1,0 +1,35 @@
+header h1{
+    background-color:white;
+    color:darkslateblue;
+    font-size: 20pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+div.btn{
+    border-radius:10pt;
+    padding:2px;
+    margin:5px;
+    background-color:aquamarine;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor:pointer;
+    display:inline-block;
+    margin-left: 10pt;
+}
+
+a:hover{
+    color:antiquewhite;
+    background-color: deeppink;
+    border-radius: 10pt;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+a{/*para mudar a cor do texto do botão, não dava no outro pq tava dentro de um nav*/
+    color:orange;
+    text-decoration: none;
+}
